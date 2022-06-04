@@ -12,6 +12,7 @@ public class ReiniciarScript : MonoBehaviour, IPointerEnterHandler, IPointerExit
         originalText = "Reiniciar";    
     }
 
+    //Si el jugador pone el raton encima del boton, lo resalta
     public void OnPointerEnter(PointerEventData eventData)
     {
 
@@ -20,6 +21,7 @@ public class ReiniciarScript : MonoBehaviour, IPointerEnterHandler, IPointerExit
         textMeshPro.SetText(texto);
     }
 
+    //Si el jugador quita de encima del boton el raton, lo devuelve a la normalidad
     public void OnPointerExit(PointerEventData eventData)
     {
 
@@ -28,6 +30,7 @@ public class ReiniciarScript : MonoBehaviour, IPointerEnterHandler, IPointerExit
         textMeshPro.SetText(texto);
     }
 
+    //Si el jugador pulsa el boton, borra los datos guardados
     public void OnPointerClick(PointerEventData eventData) // 3
     {
         SaveManager.DeleteData();

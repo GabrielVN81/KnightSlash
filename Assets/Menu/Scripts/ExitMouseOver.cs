@@ -9,18 +9,8 @@ public class ExitMouseOver : MonoBehaviour, IPointerEnterHandler
 {
 
     public TMP_Text textMeshPro;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    //Si el raton esta encima del boton lo resalta
     public void OnPointerEnter(PointerEventData eventData)
     {
 
@@ -29,6 +19,7 @@ public class ExitMouseOver : MonoBehaviour, IPointerEnterHandler
         textMeshPro.SetText(texto);
     }
 
+    //Si el jugador quita el raton de encima, vuelve el boton a la normalidad
     public void OnPointerExit(PointerEventData eventData)
     {
 
@@ -37,6 +28,7 @@ public class ExitMouseOver : MonoBehaviour, IPointerEnterHandler
         textMeshPro.SetText(texto);
     }
 
+    //Si el jugador pulsa el boton, cierra el juego
     public void OnPointerClick(PointerEventData eventData) // 3
     {
         Debug.Log("Exit request");

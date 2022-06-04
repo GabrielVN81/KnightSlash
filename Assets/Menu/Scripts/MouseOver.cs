@@ -9,18 +9,8 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler
 {
 
     public TMP_Text textMeshPro;
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //Si el raton esta encima del boton, resalta el texto
     public void OnPointerEnter(PointerEventData eventData)
     {
 
@@ -29,6 +19,7 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler
         textMeshPro.SetText(texto);
     }
 
+    //Si el jugador quita el raton de encima, devuelve el texto a la normalidad
     public void OnPointerExit(PointerEventData eventData)
     {
 

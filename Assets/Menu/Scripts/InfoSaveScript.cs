@@ -8,6 +8,7 @@ public class InfoSaveScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Comprueba la info que debe mostrar por pantalla si el jugador tiene datos guardados
         PlayerData pData = SaveManager.LoadPlayerData();
         if (pData == null)
         {

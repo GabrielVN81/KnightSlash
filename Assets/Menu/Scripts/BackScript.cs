@@ -9,7 +9,6 @@ public class BackScript : MonoBehaviour, IPointerClickHandler
 
     public TMP_Text textMeshPro;
 
-
     public void OnPointerClick(PointerEventData eventData) // 3
     {
         Debug.Log("Back request");
