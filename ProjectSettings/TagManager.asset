@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Die
+  - Enemy
+  - Statue
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - PostProcesado
+  - Ground
+  - Enemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3967592521
+    locked: 0
+  - name: Foreground
+    uniqueID: 2034278631
+    locked: 0
+  - name: Statues
+    uniqueID: 1602149125
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: LucesFrente
+    uniqueID: 1439431709
+    locked: 0
+  - name: Particles
+    uniqueID: 3264458403
+    locked: 0
+  - name: ForegroundFrente
+    uniqueID: 3863016769
+    locked: 0
