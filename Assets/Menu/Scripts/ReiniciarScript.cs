@@ -6,6 +6,7 @@ public class ReiniciarScript : MonoBehaviour, IPointerEnterHandler, IPointerExit
 {
     public TMP_Text textMeshPro;
     private string originalText;
+    public SceneSwitcher sceneSwitcher;
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class ReiniciarScript : MonoBehaviour, IPointerEnterHandler, IPointerExit
     public void OnPointerClick(PointerEventData eventData) // 3
     {
         SaveManager.DeleteData();
+        sceneSwitcher.OpenScene(1);
     }
 
 }
